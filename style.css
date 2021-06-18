@@ -1,0 +1,54 @@
+body {
+  background: #0b0d18;
+  font-size: 15px;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+p {
+  font-family: "Lexend Deca", sans-serif;
+}
+p .desc {
+  color: rgba(255, 255, 255, 0.6);
+  text-transform: uppercase;
+}
+
+.accent {
+  color: #aa5cdb;
+}
+
+#main {
+  background: #1b1938;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+div .container {
+  width: 60%;
+}
+div .info {
+  width: 100%;
+}
+div .img-header {
+  background: #aa5cdb;
+}
+div .img-header img {
+  mix-blend-mode: multiply;
+}
+div .end-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+div .item {
+  font-family: "Lexend Deca", sans-serif;
+}
+
+/*# sourceMappingURL=style.css.map */
