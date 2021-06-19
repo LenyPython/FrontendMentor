@@ -1,19 +1,33 @@
 body {
   background: #0b0d18;
-  font-size: 15px;
-  font-family: "Inter", sans-serif;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 15px;
+  font-family: "Inter", sans-serif;
   color: white;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  margin: 5px;
 }
 
 p {
   font-family: "Lexend Deca", sans-serif;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.75);
 }
-p .desc {
+
+.desc {
   color: rgba(255, 255, 255, 0.6);
   text-transform: uppercase;
+  line-height: 100%;
+  margin: 0;
 }
 
 .accent {
@@ -22,33 +36,79 @@ p .desc {
 
 #main {
   background: #1b1938;
+  width: 1100px;
+  height: 446px;
   display: flex;
-  justify-content: center;
+  flex-flow: row nowrap;
+  justify-content: space-between;
   align-items: center;
-  padding: 25px;
   border-radius: 10px;
   overflow: hidden;
 }
 
-div .container {
+.container {
   width: 60%;
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-evenly;
+  padding: 25px 100px 50px 75px;
 }
-div .info {
+
+.info {
   width: 100%;
 }
-div .img-header {
+
+.img-header {
   background: #aa5cdb;
+  height: 100%;
 }
-div .img-header img {
+.img-header img {
   mix-blend-mode: multiply;
 }
-div .end-container {
+
+.end-container {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  margin-top: 40px;
 }
-div .item {
+
+.item {
   font-family: "Lexend Deca", sans-serif;
+}
+
+@media (max-width: 375px) {
+  body {
+    background: #0b0d18;
+    margin: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-family: "Inter", sans-serif;
+    color: white;
+  }
+
+  #main {
+    background: #1b1938;
+    display: flex;
+    flex-flow: column nowrap;
+    border-radius: 10px;
+  }
+
+  .end-container {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+  }
+
+  .item {
+    margin-top: 30px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
