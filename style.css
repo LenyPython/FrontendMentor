@@ -10,7 +10,7 @@ body {
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 h2 {
@@ -20,6 +20,7 @@ h2 {
 p {
   font-family: "Lexend Deca", sans-serif;
   line-height: 1.6;
+  font-size: 0.9rem;
   color: rgba(255, 255, 255, 0.75);
 }
 
@@ -67,7 +68,8 @@ p {
   object-fit: contain;
 }
 .img-header > img {
-  mix-blend-mode: multiply;
+  display: block;
+  opacity: 0.8;
   height: 100%;
   width: auto;
 }
@@ -76,14 +78,14 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 40px;
+  margin-top: 1rem;
 }
 
 .item {
   font-family: "Lexend Deca", sans-serif;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 1005px) {
   body {
     background: #0b0d18;
     height: auto;
@@ -123,6 +125,7 @@ p {
     align-items: center;
     text-align: center;
     width: 100%;
+    max-width: 500px;
     height: auto;
     margin: 0;
     padding: 0 2rem 3rem;
