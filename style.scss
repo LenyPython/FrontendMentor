@@ -67,6 +67,7 @@ width:100%;
 	object-fit: contain;
 	& > img{
 		display: block;
+		mix-blend-mode: multiply;
 		opacity: 0.8;
 		height: 100%;
 		width: auto;
@@ -141,7 +142,6 @@ align-items: center;
 		height: auto;
 		object-fit: contain;
 	& > img{
-		opacity: 0.8;
 		width: 100%;
 		height: 100%;
 	}

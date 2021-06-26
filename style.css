@@ -69,6 +69,7 @@ p {
 }
 .img-header > img {
   display: block;
+  mix-blend-mode: multiply;
   opacity: 0.8;
   height: 100%;
   width: auto;
@@ -150,7 +151,6 @@ p {
     object-fit: contain;
   }
   .img-header > img {
-    mix-blend-mode: multiply;
     width: 100%;
     height: 100%;
   }
